@@ -1,3 +1,0 @@
-D:\百度云同步盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\obj\Debug\Hyc.DbDriver.csprojResolveAssemblyReference.cache
-D:\百度云同步盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\obj\Debug\Hyc.DbDriver.dll
-D:\百度云同步盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\obj\Debug\Hyc.DbDriver.pdb
