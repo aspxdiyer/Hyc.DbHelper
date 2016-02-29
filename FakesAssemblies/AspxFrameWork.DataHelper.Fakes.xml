@@ -1,0 +1,362 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AspxFrameWork.DataHelper.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:AspxFrameWork.DataHelper.Fakes.ShimDataCache">
+            <summary>AspxFrameWork.DataHelper.DataCache 的填充码类型</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.ShimDataCache.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.ShimDataCache.#ctor(AspxFrameWork.DataHelper.DataCache)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.ShimDataCache.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.ShimDataCache.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.Clear">
+            <summary>设置 DataCache.Clear() 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.Constructor">
+            <summary>设置 DataCache.DataCache() 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.GetString">
+            <summary>设置 DataCache.Get(String key) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.InsertStringObject">
+            <summary>设置 DataCache.Insert(String key, Object obj) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.InsertStringObjectCacheDependency">
+            <summary>设置 DataCache.Insert(String key, Object obj, CacheDependency dep) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.InsertStringObjectCacheDependencyInt32">
+            <summary>设置 DataCache.Insert(String key, Object obj, CacheDependency dep, Int32 seconds) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.InsertStringObjectCacheDependencyInt32CacheItemPriority">
+            <summary>设置 DataCache.Insert(String key, Object obj, CacheDependency dep, Int32 seconds, CacheItemPriority priority) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.InsertStringObjectInt32">
+            <summary>设置 DataCache.Insert(String key, Object obj, Int32 seconds) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.InsertStringObjectInt32CacheItemPriority">
+            <summary>设置 DataCache.Insert(String key, Object obj, Int32 seconds, CacheItemPriority priority) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.MaxStringObject">
+            <summary>设置 DataCache.Max(String key, Object obj) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.MaxStringObjectCacheDependency">
+            <summary>设置 DataCache.Max(String key, Object obj, CacheDependency dep) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.MicroInsertStringObjectInt32">
+            <summary>设置 DataCache.MicroInsert(String key, Object obj, Int32 secondFactor) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.ReSetFactorInt32">
+            <summary>设置 DataCache.ReSetFactor(Int32 cacheFactor) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.RemoveByPatternString">
+            <summary>设置 DataCache.RemoveByPattern(String pattern) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.RemoveString">
+            <summary>设置 DataCache.Remove(String key) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.SecondInsertStringObjectInt32">
+            <summary>设置 DataCache.SecondInsert(String key, Object obj, Int32 SecondFactor) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimDataCache.StaticConstructor">
+            <summary>设置 DataCache.DataCache() 的 填充码</summary>
+        </member>
+        <member name="T:AspxFrameWork.DataHelper.Fakes.ShimDataCache.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:AspxFrameWork.DataHelper.Fakes.ShimSqlCache">
+            <summary>AspxFrameWork.DataHelper.SqlCache 的填充码类型</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.#ctor(AspxFrameWork.DataHelper.SqlCache)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.Constructor">
+            <summary>设置 SqlCache.SqlCache() 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteDatasetStringStringArrayCommandTypeString">
+            <summary>设置 SqlCache.ExecuteDataset(String Cache, String[] Cache_Parameter, CommandType commandType, String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteDatasetStringStringArrayCommandTypeStringDbParameterArray">
+            <summary>设置 SqlCache.ExecuteDataset(String Cache, String[] Cache_Parameter, CommandType commandType, String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteDatasetStringStringArrayCommandTypeStringDbParameterArrayInt32">
+            <summary>设置 SqlCache.ExecuteDataset(String Cache, String[] Cache_Parameter, CommandType commandType, String commandText, DbParameter[] prams, Int32 SecondFactor) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteDatasetStringStringArrayCommandTypeStringInt32">
+            <summary>设置 SqlCache.ExecuteDataset(String Cache, String[] Cache_Parameter, CommandType commandType, String commandText, Int32 SecondFactor) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteDatasetStringStringArrayString">
+            <summary>设置 SqlCache.ExecuteDataset(String Cache, String[] Cache_Parameter, String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteDatasetStringStringArrayStringDbParameterArray">
+            <summary>设置 SqlCache.ExecuteDataset(String Cache, String[] Cache_Parameter, String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteDatasetStringStringArrayStringDbParameterArrayInt32">
+            <summary>设置 SqlCache.ExecuteDataset(String Cache, String[] Cache_Parameter, String commandText, DbParameter[] prams, Int32 SecondFactor) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteDatasetStringStringArrayStringInt32">
+            <summary>设置 SqlCache.ExecuteDataset(String Cache, String[] Cache_Parameter, String commandText, Int32 SecondFactor) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteNonQueryStringCommandTypeString">
+            <summary>设置 SqlCache.ExecuteNonQuery(String Cache, CommandType commandType, String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteNonQueryStringCommandTypeStringDbParameterArray">
+            <summary>设置 SqlCache.ExecuteNonQuery(String Cache, CommandType commandType, String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteNonQueryStringString">
+            <summary>设置 SqlCache.ExecuteNonQuery(String Cache, String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteNonQueryStringStringDbParameterArray">
+            <summary>设置 SqlCache.ExecuteNonQuery(String Cache, String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteReaderStringStringArrayCommandTypeString">
+            <summary>设置 SqlCache.ExecuteReader(String Cache, String[] Cache_Parameter, CommandType commandType, String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteReaderStringStringArrayCommandTypeStringDbParameterArray">
+            <summary>设置 SqlCache.ExecuteReader(String Cache, String[] Cache_Parameter, CommandType commandType, String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteReaderStringStringArrayCommandTypeStringDbParameterArrayInt32">
+            <summary>设置 SqlCache.ExecuteReader(String Cache, String[] Cache_Parameter, CommandType commandType, String commandText, DbParameter[] prams, Int32 SecondFactor) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteReaderStringStringArrayCommandTypeStringInt32">
+            <summary>设置 SqlCache.ExecuteReader(String Cache, String[] Cache_Parameter, CommandType commandType, String commandText, Int32 SecondFactor) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteReaderStringStringArrayString">
+            <summary>设置 SqlCache.ExecuteReader(String Cache, String[] Cache_Parameter, String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteReaderStringStringArrayStringDbParameterArray">
+            <summary>设置 SqlCache.ExecuteReader(String Cache, String[] Cache_Parameter, String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteReaderStringStringArrayStringDbParameterArrayInt32">
+            <summary>设置 SqlCache.ExecuteReader(String Cache, String[] Cache_Parameter, String commandText, DbParameter[] prams, Int32 SecondFactor) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteReaderStringStringArrayStringInt32">
+            <summary>设置 SqlCache.ExecuteReader(String Cache, String[] Cache_Parameter, String commandText, Int32 SecondFactor) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteScalarStringStringArrayCommandTypeString">
+            <summary>设置 SqlCache.ExecuteScalar(String Cache, String[] Cache_Parameter, CommandType commandType, String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteScalarStringStringArrayCommandTypeStringDbParameterArray">
+            <summary>设置 SqlCache.ExecuteScalar(String Cache, String[] Cache_Parameter, CommandType commandType, String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteScalarStringStringArrayString">
+            <summary>设置 SqlCache.ExecuteScalar(String Cache, String[] Cache_Parameter, String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.ExecuteScalarStringStringArrayStringDbParameterArray">
+            <summary>设置 SqlCache.ExecuteScalar(String Cache, String[] Cache_Parameter, String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.GetRecordByPageStringStringStringStringInt32Int32Int32Int32String">
+            <summary>设置 SqlCache.GetRecordByPage(String Cache, String tblName, String strGetFields, String fldName, Int32 PageSize, Int32 PageIndex, Int32 IsReCount, Int32 OrderType, String strWhere) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.getObjectValueStringStringArrayObject">
+            <summary>设置 SqlCache.getObjectValue(String Cache, String[] Cache_Parameter, Object result) 的 填充码</summary>
+        </member>
+        <member name="T:AspxFrameWork.DataHelper.Fakes.ShimSqlCache.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper">
+            <summary>AspxFrameWork.DataHelper.SqlHelper 的填充码类型</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.#ctor(AspxFrameWork.DataHelper.SqlHelper)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.AspxConnectionGet">
+            <summary>设置 SqlHelper.get_AspxConnection() 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.AspxConnectionSetString">
+            <summary>设置 SqlHelper.set_AspxConnection(String value) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.AspxProviderGet">
+            <summary>设置 SqlHelper.get_AspxProvider() 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.AspxProviderSetString">
+            <summary>设置 SqlHelper.set_AspxProvider(String value) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.Conn_stringString">
+            <summary>设置 SqlHelper.Conn_string(String SqlConnection_string) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.Constructor">
+            <summary>设置 SqlHelper.SqlHelper() 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.CreateCommandCommandTypeDbCommandDbConnectionStringDbParameterArray">
+            <summary>设置 SqlHelper.CreateCommand(CommandType cmdType, DbCommand cmd, DbConnection conn, String cmdText, DbParameter[] cmdParms) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.CreateConnection">
+            <summary>设置 SqlHelper.CreateConnection() 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.CreateFactory">
+            <summary>设置 SqlHelper.CreateFactory() 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteDatasetCommandTypeString">
+            <summary>设置 SqlHelper.ExecuteDataset(CommandType commandType, String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteDatasetCommandTypeStringDbParameterArray">
+            <summary>设置 SqlHelper.ExecuteDataset(CommandType commandType, String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteDatasetString">
+            <summary>设置 SqlHelper.ExecuteDataset(String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteDatasetStringDbParameterArray">
+            <summary>设置 SqlHelper.ExecuteDataset(String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteNonQueryByErrCommandTypeStringDbParameterArrayStringRef">
+            <summary>设置 SqlHelper.ExecuteNonQueryByErr(CommandType commandType, String commandText, DbParameter[] prams, String&amp; ErrString) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteNonQueryCommandTypeString">
+            <summary>设置 SqlHelper.ExecuteNonQuery(CommandType commandType, String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteNonQueryCommandTypeStringDbParameterArray">
+            <summary>设置 SqlHelper.ExecuteNonQuery(CommandType commandType, String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteNonQueryString">
+            <summary>设置 SqlHelper.ExecuteNonQuery(String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteNonQueryStringDbParameterArray">
+            <summary>设置 SqlHelper.ExecuteNonQuery(String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteReaderCommandTypeString">
+            <summary>设置 SqlHelper.ExecuteReader(CommandType commandType, String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteReaderCommandTypeStringDbParameterArray">
+            <summary>设置 SqlHelper.ExecuteReader(CommandType commandType, String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteReaderString">
+            <summary>设置 SqlHelper.ExecuteReader(String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteReaderStringDbParameterArray">
+            <summary>设置 SqlHelper.ExecuteReader(String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteScalarCommandTypeString">
+            <summary>设置 SqlHelper.ExecuteScalar(CommandType commandType, String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteScalarCommandTypeStringDbParameterArray">
+            <summary>设置 SqlHelper.ExecuteScalar(CommandType commandType, String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteScalarString">
+            <summary>设置 SqlHelper.ExecuteScalar(String commandText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.ExecuteScalarStringDbParameterArray">
+            <summary>设置 SqlHelper.ExecuteScalar(String commandText, DbParameter[] prams) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.FindSetBySqlStringStringStringStringDbParameterArrayInt32Int32">
+            <summary>设置 SqlHelper.FindSetBySql(String Table, String ColName, String OrderString, String strWhere, DbParameter[] para, Int32 page, Int32 PageSize) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.GetRecordByPageStringStringStringInt32Int32Int32Int32String">
+            <summary>设置 SqlHelper.GetRecordByPage(String tblName, String strGetFields, String fldName, Int32 PageSize, Int32 PageIndex, Int32 IsReCount, Int32 OrderType, String strWhere) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.MakeInParamStringDbTypeInt32Object">
+            <summary>设置 SqlHelper.MakeInParam(String ParamName, DbType DbType, Int32 Size, Object Value) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.MakeObjectParamStringObject">
+            <summary>设置 SqlHelper.MakeObjectParam(String ParamName, Object Value) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.MakeOutParamStringDbTypeInt32">
+            <summary>设置 SqlHelper.MakeOutParam(String ParamName, DbType DbType, Int32 Size) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.MakeParamStringDbTypeInt32ParameterDirectionObject">
+            <summary>设置 SqlHelper.MakeParam(String ParamName, DbType DbType, Int32 Size, ParameterDirection Direction, Object Value) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.MakeReturnParamStringDbTypeInt32">
+            <summary>设置 SqlHelper.MakeReturnParam(String ParamName, DbType DbType, Int32 Size) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.UpdateDataSetDataSetString">
+            <summary>设置 SqlHelper.UpdateDataSet(DataSet inputDataSet, String cmdText) 的 填充码</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.cmd_DisposedObjectEventArgs">
+            <summary>设置 SqlHelper.cmd_Disposed(Object sender, EventArgs e) 的 填充码</summary>
+        </member>
+        <member name="T:AspxFrameWork.DataHelper.Fakes.ShimSqlHelper.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:AspxFrameWork.DataHelper.Fakes.StubDataCache">
+            <summary>AspxFrameWork.DataHelper.DataCache 的存根类型</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.StubDataCache.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.StubDataCache.InitializeStub">
+            <summary>初始化 type StubDataCache 的新实例</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.StubDataCache.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.StubDataCache.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.StubDataCache.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:AspxFrameWork.DataHelper.Fakes.StubSqlCache">
+            <summary>AspxFrameWork.DataHelper.SqlCache 的存根类型</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.StubSqlCache.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.StubSqlCache.InitializeStub">
+            <summary>初始化 type StubSqlCache 的新实例</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.StubSqlCache.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.StubSqlCache.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.StubSqlCache.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:AspxFrameWork.DataHelper.Fakes.StubSqlHelper">
+            <summary>AspxFrameWork.DataHelper.SqlHelper 的存根类型</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.StubSqlHelper.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:AspxFrameWork.DataHelper.Fakes.StubSqlHelper.InitializeStub">
+            <summary>初始化 type StubSqlHelper 的新实例</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.StubSqlHelper.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.StubSqlHelper.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:AspxFrameWork.DataHelper.Fakes.StubSqlHelper.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,16 @@
+F:\百度网盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\bin\Debug\Hyc.DbDriver.dll
+F:\百度网盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\bin\Debug\Hyc.DbDriver.pdb
+F:\百度网盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\obj\Debug\ResolveAssemblyReference.cache
+F:\百度网盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\obj\Debug\Hyc.DbDriver.dll
+F:\百度网盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\obj\Debug\Hyc.DbDriver.pdb
+F:\百度网盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\bin\Debug\AspxFrameWork.DataHelper.dll
+F:\百度网盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\bin\Debug\MySql.Data.dll
+F:\百度网盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\bin\Debug\AspxFrameWork.DataHelper.pdb
+D:\百度云同步盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\bin\Debug\Hyc.DbDriver.dll
+D:\百度云同步盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\bin\Debug\Hyc.DbDriver.pdb
+D:\百度云同步盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\bin\Debug\MySql.Data.dll
+D:\百度云同步盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\bin\Debug\AspxFrameWork.DataHelper.pdb
+D:\百度云同步盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\obj\Debug\Hyc.DbDriver.csprojResolveAssemblyReference.cache
+D:\百度云同步盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\obj\Debug\Hyc.DbDriver.dll
+D:\百度云同步盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\obj\Debug\Hyc.DbDriver.pdb
+D:\百度云同步盘\我的程序\备份\Project\Hyc.DataHelper\Hyc.DataHelper\bin\Debug\AspxFrameWork.DataHelper.dll
